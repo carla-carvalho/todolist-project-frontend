@@ -24,7 +24,10 @@ export const Form = styled.form`
 
     input{
         border-radius: 1rem;
+        border:solid 1px;
+        border-color: white;
     }
+
 
     select{
         text-align: center;

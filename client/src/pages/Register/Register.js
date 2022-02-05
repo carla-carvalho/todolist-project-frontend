@@ -5,12 +5,12 @@ export default function Register() {
 
     return (
         <Container>
-            <Title>Criar uma nova tarefa</Title>
+            <Title>Nova tarefa</Title>
             <Form>
                 <label>Nome:</label>
                 <input type ='text' required />
                 <label>Descrição:</label>
-                <input type ='text'/>
+                <input id="descricao" type ='text'/>
                 <label>Prioridade:</label>
                 <select name="Prioridade" >
                     <option value="valor1">Baixa</option>
