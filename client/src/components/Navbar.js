@@ -18,20 +18,25 @@ export default function Navbar(){
                <input  type="text" id="txtBusca" placeholder="Buscar Tarefa"/>
            </Search>
            <List>
+          
+        
+
+                    <FaClipboardList/>
+                    <li>Lista de Tarefas
+                    <ul>
+                    <a href="/List">   <li>Ver todas</li>  </a>
                
-                   <a href="/List">
-                       <FaClipboardList/>
-                       <span>Lista de Tarefas</span>
-                        <li>Ver todas</li>
-                        <li>Ver concluídas</li>
-                   </a>
+                    <a href="/concluidas">   <li> Ver concluídas</li></a>
+                        </ul> 
+                    </li>
+                  
                    
                    
                    <a href="/Register">
                        <MdAddCircleOutline/>
-                       <span>Adicionar tarefa</span>
+                       <li>Adicionar tarefa</li>
                        </a>
-            
+                 
            </List>
         </Container>
     )

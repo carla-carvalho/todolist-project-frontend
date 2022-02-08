@@ -34,33 +34,40 @@ export const Search = styled.div`
 
 `
 
-export const List = styled.ul`
+export const List = styled.div`
     display: flex;
     list-style: none;
+    font-weight: 700;  
+    font-size: 0.9rem;
+    align-items: center;
 
     a{
-        text-decoration: none;
         color: #484848;
         font-weight: 700;
         padding: 0 1rem;
-        font-size: 0.9rem;
-        display:flex;
-        align-items: center;
-       
-        ul{
+    }
+
+
+    ul{
             display:none;
           
         }
 
-        span{
-            padding: 0 0.2rem;
+        li{
+            position: relative;
+            float:left;
+            list-style: none;
         }
 
-        &:hover{
-            color: #897eb3;
-            cursor: pointer;
-            transition: all 200ms ease
-        }
-    }
-    
+        li  ul{
+            position:absolute;
+            display:none;
+            }
+
+            li  ul li:hover{
+                color: #f1f;
+            }
+
+            li:hover ul, li.over ul{display:block;}
+
 `
