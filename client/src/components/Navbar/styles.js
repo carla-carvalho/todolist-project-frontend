@@ -65,7 +65,7 @@ export const List = styled.div`
             }
 
             li  ul li:hover{
-                color: #f1f;
+                color: #000;
             }
 
             li:hover ul, li.over ul{display:block;}

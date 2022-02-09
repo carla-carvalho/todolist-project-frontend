@@ -16,6 +16,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/register" element={<Register />} />
         <Route path="/List" element={<Home />} />
+        <Route path="/concluidas" element={<Home />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

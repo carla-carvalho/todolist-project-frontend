@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   width: 60%;
   margin-bottom: 2rem;
-  height: 300px;
+  height: 200px;
   align-items: center;
   border: 1px solid #47453f;
   border-radius: 0.5rem;
@@ -17,22 +17,21 @@ export const Container = styled.div`
 
   h1 {
     font-size: 1.5rem;
-    margin-left: 1rem;
+    text-align: center;
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   div {
     display: flex;
-    width: 20%;
+    width: 50%;
     justify-content: center;
     align-items: center;
   }
 `;
 
 export const ButtonContainer = styled.div`
-  background-color: red;
   width: 100%;
 `;
